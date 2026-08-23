@@ -1,0 +1,66 @@
+SQL CRUD — 20 Questions
+Setup assumption
+
+Use an employees table with roughly these columns:
+employee_id
+first_name
+last_name
+email
+department
+job_title
+salary
+city
+hire_date
+status
+
+You can design the exact schema yourself. That's part of the exercise.
+
+🟢 CREATE / INSERT
+
+1. Create an employees table with appropriate data types and a primary key for employee_id.
+
+2. Insert one employee into the table with values for all columns.
+
+3. Insert five employees at once using a single INSERT statement.
+
+4. Insert a new employee with only the required/basic fields. Let PostgreSQL handle any columns that have defaults.
+
+🔵 SELECT
+
+5. Retrieve all employees from the table.
+
+6. Retrieve only the employee's first_name, last_name, department, and salary.
+
+7. Retrieve all unique departments from the employees table.
+
+8. Retrieve the first 5 employees from the table.
+
+🟡 WHERE / FILTERING
+
+9. Find all employees who work in the IT department.
+
+10. Find all employees whose salary is greater than ₹50,000.
+
+11. Find all employees whose salary is between ₹40,000 and ₹80,000.
+
+12. Find all employees who live in either Kolkata, Bangalore, or Mumbai.
+
+13. Find all employees whose first name starts with the letter A.
+
+14. Find all employees who are active and belong to the IT department.
+
+🟠 UPDATE
+
+15. Update the salary of a specific employee using their employee_id.
+
+16. Change the department of a specific employee from one department to another.
+
+17. Give every employee in the IT department a 10% salary increase.
+
+18. Change the status of all employees who currently have a specific condition—for example, employees hired before a certain date—to inactive.
+
+🔴 DELETE
+
+19. Delete one specific employee using their employee_id.
+
+20. Delete all employees whose status is inactive.
