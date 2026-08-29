@@ -17,23 +17,23 @@ You can design the exact schema yourself. That's part of the exercise.
 
 🟢 CREATE / INSERT
 
-1. Create an employees table with appropriate data types and a primary key for employee_id.
+1. Create an employees table with appropriate data types and a primary key for employee_id. (Done)
 
-2. Insert one employee into the table with values for all columns.
+2. Insert one employee into the table with values for all columns. (Done)
 
-3. Insert five employees at once using a single INSERT statement.
+3. Insert five employees at once using a single INSERT statement. (Done)
 
-4. Insert a new employee with only the required/basic fields. Let PostgreSQL handle any columns that have defaults.
+4. Insert a new employee with only the required/basic fields. Let PostgreSQL handle any columns that have defaults. (Done)
 
 🔵 SELECT
 
-5. Retrieve all employees from the table.
+5. Retrieve all employees from the table. (Done)
 
-6. Retrieve only the employee's first_name, last_name, department, and salary.
+6. Retrieve only the employee's first_name, last_name, department, and salary.  (Done)
 
-7. Retrieve all unique departments from the employees table.
+7. Retrieve all unique departments from the employees table. (Done)
 
-8. Retrieve the first 5 employees from the table.
+8. Retrieve the first 5 employees from the table. (Done)
 
 🟡 WHERE / FILTERING
 

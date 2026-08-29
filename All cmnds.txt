@@ -3,3 +3,27 @@ All cmnds
 sudo -u postgres psql
 psql -h 127.0.0.1 -p 5432 -U postgres -W
 sudo systemctl restart postgresql
+\dt
+\q
+\d table_name
+
+CREATE TABLE employees ( emp_id INT, name VARCHAR(100, .....));
+
+ALTER TABLE employees ADD COLUMN date TYPE DATE, 
+ADD COLUMN status VARCHAR(100); 
+
+SELECT * FROM employees; 
+
+ALTER TABLE employees
+RENAME COLUMN id TO employee_id;
+
+ALTER TABLE employees
+ALTER COLUMN salary TYPE NUMERIC(10,2);
+
+ALTER TABLE employees
+ALTER COLUMN hire_date TYPE DATE
+USING hire_date::DATE;
+
+ALTER TABLE employees
+ADD PRIMARY KEY (employee_id);
+
