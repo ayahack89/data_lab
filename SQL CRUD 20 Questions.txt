@@ -13,7 +13,7 @@ city
 hire_date
 status
 
-You can design the exact schema yourself. That's part of the exercise.
+You can design the exact schema yourself. That's part of the exercise (Done)
 
 🟢 CREATE / INSERT
 
@@ -37,30 +37,30 @@ You can design the exact schema yourself. That's part of the exercise.
 
 🟡 WHERE / FILTERING
 
-9. Find all employees who work in the IT department.
+9. Find all employees who work in the IT department (Done)
 
-10. Find all employees whose salary is greater than ₹50,000.
+10. Find all employees whose salary is greater than ₹50,000 (Done)
 
-11. Find all employees whose salary is between ₹40,000 and ₹80,000.
+11. Find all employees whose salary is between ₹40,000 and ₹80,000 (Done)
 
-12. Find all employees who live in either Kolkata, Bangalore, or Mumbai.
+12. Find all employees who live in either Kolkata, Bangalore, or Mumbai (Done)
 
-13. Find all employees whose first name starts with the letter A.
+13. Find all employees whose first name starts with the letter A (Done)
 
-14. Find all employees who are active and belong to the IT department.
+14. Find all employees who are active and belong to the IT department (Done)
 
 🟠 UPDATE
 
-15. Update the salary of a specific employee using their employee_id.
+15. Update the salary of a specific employee using their employee_id (Done)
 
-16. Change the department of a specific employee from one department to another.
+16. Change the department of a specific employee from one department to another (Done)
 
-17. Give every employee in the IT department a 10% salary increase.
+17. Give every employee in the IT department a 10% salary increase (Done)
 
-18. Change the status of all employees who currently have a specific condition—for example, employees hired before a certain date—to inactive.
+18. Change the status of all employees who currently have a specific condition—for example, employees hired before a certain date—to inactive (Done)
 
 🔴 DELETE
 
-19. Delete one specific employee using their employee_id.
+19. Delete one specific employee using their employee_id (Done)
 
-20. Delete all employees whose status is inactive.
+20. Delete all employees whose status is inactive (Done)
