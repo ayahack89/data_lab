@@ -27,3 +27,15 @@ USING hire_date::DATE;
 ALTER TABLE employees
 ADD PRIMARY KEY (employee_id);
 
+UPDATE employees
+SET salary = CASE employee_id
+    WHEN 9 THEN 55000
+    WHEN 11 THEN 62000
+    WHEN 15 THEN 65000
+    WHEN 18 THEN 57000
+    WHEN 21 THEN 68000
+    WHEN 28 THEN 52000
+    WHEN 25 THEN 59000
+END
+WHERE department = 'IT';
+
