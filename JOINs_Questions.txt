@@ -1,0 +1,39 @@
+JOINs
+
+INNER JOIN
+
+Q9. Using customers and orders, display each customer's name along with their order details. Return only customers who have placed at least one order.
+
+Q10. Using employees and departments, display each employee's name and their department name. Return only employees who have a matching department.
+
+LEFT JOIN
+
+Q11. Display all customers and their orders, including customers who have never placed an order.
+
+Q12. Display all products and their order details, including products that have never been ordered.
+
+RIGHT JOIN
+
+Q13. Display all departments and the employees belonging to them, including departments that currently have no employees.
+
+Q14. Display all products and their suppliers, including suppliers whose products have not yet been associated with an order.
+
+FULL OUTER JOIN
+
+Q15. Display all customers and all orders, including customers without orders and orders that don't have a matching customer.
+
+Q16. Display all employees and all departments, including employees without a department and departments without employees.
+
+SELF JOIN
+
+A self join means joining a table with itself.
+
+Q17. Suppose the employees table has a manager_id column. Display each employee's name along with their manager's name.
+
+Q18. Find pairs of employees who work in the same department.
+
+CROSS JOIN
+
+Q19. Generate every possible combination of employees and departments.
+
+Q20. Generate every possible combination of products and store locations.

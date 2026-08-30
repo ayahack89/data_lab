@@ -1,0 +1,31 @@
+SQL Practice — Next Level
+1. GROUP BY
+
+Q1. Find the total number of employees in each department (Done)
+
+Q2. Find the average salary for each city (Done)
+
+2. Aggregate Functions
+
+Q3. Find the total salary paid to all employees (Done)
+
+Q4. Find the highest, lowest, and average salary of all employees (Done)
+
+3. HAVING
+
+Q5. Find departments that have more than 2 employees (Done)
+
+Q6. Find cities where the average employee salary is greater than 50,000 (Done)
+
+4. CASE WHEN
+
+Q7. Categorize employees based on salary (Done)
+Salary ≥ 60,000 → High
+Salary between 40,000 and 59,999 → Medium
+Salary < 40,000 → Low
+
+Q8. Categorize employees based on their status (Done)
+Active → Currently Employed
+Inactive → Not Active
+Terminated → Former Employee
+
